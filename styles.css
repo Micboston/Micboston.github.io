@@ -3,7 +3,7 @@
 body {
   color: #555;
   margin: 0;
-  font-family: optima,sans-serif;
+  font-family: condensed, avenir,sans-serif;
 }
 #header {
   background-color: darkSlateGray;
@@ -25,6 +25,7 @@ body {
   font-size: 30px;
 }
 #header-nav li {
+  font-size: 20px;
   display: inline;
   padding-left:20px;
 }
@@ -33,27 +34,31 @@ body {
   margin: 0 auto;
 }
 #header a {
-  color: orange;
+  color: white
+  ;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 #header a:hover {
-  color: #222;
+  color: LightSteelBlue;
 }
 #footer {
+
   background-color: #2f2f2f;
   padding: 20px 0;
   font-size: 20px;
   margin: 0;
 }
-.column {
-  
-padding: 0 0 0 60px;
-  display: inline-block;
-  vertical-align: top;
-
+.footer {
+align-items: center;
 }
+.column {
+display: inline-block;
+vertical-align: top;
+padding-right: 300px;
+}
+
 #footer h4 {
   color: white;
   text-transform: uppercase;
@@ -70,7 +75,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #F6A623;
+  color: LightSteelBlue;
 }
 .post {
   max-width: 800px;
