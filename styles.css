@@ -3,10 +3,12 @@
 body {
   color: #555;
   margin: 0;
-  font-family: condensed, avenir,sans-serif;
+  font-family: avenir,sans-serif;
 }
-#header {
-  background-color: darkSlateGray;
+#header
+{
+  filter: saturate(200%);
+background: linear-gradient(lightSlateGray, darkSlateGray);
   height: 150px;
   line-height: 150px;
 }
@@ -120,4 +122,8 @@ h1, h2, h3, h4 {
 }
 p {
   line-height: 1.5;
+}
+img
+{
+  filter: saturate(200%)  ;
 }
