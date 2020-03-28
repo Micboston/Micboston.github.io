@@ -9,8 +9,8 @@ body {
 {
   filter: saturate(200%);
 background: linear-gradient(lightSlateGray, darkSlateGray);
-  height: 150px;
-  line-height: 150px;
+  height: 200px;
+  line-height: 300px;
 }
 #header-title {
   display: block;
@@ -123,6 +123,11 @@ h1, h2, h3, h4 {
 p {
   line-height: 1.5;
 }
-img
-{
+.GitButton {
+padding: 50px;
+text-align: center;
+
+
+
+
 }
