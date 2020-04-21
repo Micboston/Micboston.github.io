@@ -7,12 +7,13 @@ body {
 }
 #header
 {
-  filter: saturate(200%);
+    filter: saturate(130%);
 background: linear-gradient(lightSlateGray, darkSlateGray);
   height: 200px;
-  line-height: 300px;
+  line-height: 250px;
 }
 #header-title {
+
   display: block;
   float: left;
   font-size: 40px;
@@ -89,17 +90,23 @@ a:hover {
   height: 80px;
   vertical-align: middle;
   border-radius: 40px;
+  text-align: center;
 }
 .about{
+margin: 150px 0 20px 0;
   text-align: center;
 }
 .about-author img
 {
+  margin-left: 25%;
+  transform: translate(-40%);
+  position: relative;
+  text-align: right;
 vertical-align: middle;
 border-radius: 50%;
 }
 .post-author span {
-  margin-left: 16px;
+
 }
 .post-date {
   color: #D2D2D2;
@@ -124,7 +131,6 @@ p {
   line-height: 1.5;
 }
 .GitButton {
-padding: 50px;
 text-align: center;
 
 
