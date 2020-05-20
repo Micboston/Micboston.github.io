@@ -88,9 +88,8 @@ a:hover {
 .post-author img {
   width: 80px;
   height: 80px;
-  vertical-align: middle;
   border-radius: 40px;
-  text-align: center;
+
 }
 .about{
 margin: 150px 0 20px 0;
@@ -98,12 +97,10 @@ margin: 150px 0 20px 0;
 }
 .about-author img
 {
-  margin-left: 25%;
-  transform: translate(-40%);
-  position: relative;
-  text-align: right;
-vertical-align: middle;
+text-align: center;
 border-radius: 50%;
+margin-left: 250px;
+
 }
 .post-author span {
 
