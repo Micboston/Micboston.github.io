@@ -1,3 +1,3 @@
 function coder() {
-location.""
+ location.replace("https://uvz2dx.mimo.run/index.html")
 }
