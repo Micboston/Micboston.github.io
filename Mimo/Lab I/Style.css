@@ -1,0 +1,246 @@
+#title 
+{
+font-family: noteworthy;
+height: 100px;
+ font-size: 50px;
+ color: white;
+ text-align:center;
+ background-color: lightGray;
+ border-radius: 50px;
+
+}
+body {
+
+ font-family: optima;
+ text-align: center;
+ font-size: 15px;
+}
+#screen {
+border-radius: 50px;
+padding-bottom: 30px;
+font-size: 20px;
+
+ 
+}
+#task {
+ font-size: 30px;
+ font-weight: bold;
+}
+.button
+{
+height: 100px;
+background-color: pink;
+border-radius:50px;
+margin-top: 35px;
+}
+.Call {
+border: solid 2px white;
+background-color: orange;
+border-radius: 30px;
+height:60px;
+width: 60px;
+font-size: 20px;
+color:white;
+font-weight: bold;
+} 
+.make 
+{
+border: solid 2px white;
+background-color: crimson;
+border-radius: 30px;
+height:60px;
+width: 60px;
+font-size: 20px;
+ color: white;
+ font-weight: bold;
+ margin: 10px 0 0 0;
+ padding-bottom: 0px;
+}
+.keepCool 
+{
+border: solid 2px white;
+background-color: seaGreen;
+border-radius: 30px;
+height:60px;
+width: 60px;
+ font-size: 20px;
+ color: white;
+ font-weight: bold;
+}
+.reflect{
+background-color: steelBlue;
+border: solid 2px white;
+border-radius: 30px;
+height:60px;
+width: 60px;
+font-size: 20px;
+color:white;
+font-weight: bold;
+}
+.reset{
+background-color: magenta;
+border: solid 2px white;
+border-radius: 30px;
+height:60px;
+width: 60px;
+font-size: 20px;
+color:white;
+font-weight: bold;
+margin-top: -10px;
+}
+#face {
+position: relative;
+margin-left: 20%;
+margin-bottom: 30px;
+transform: translate(0%,-10%);
+width: 200px;
+height: 200px;
+ background-color:gold;
+ font-size: 50px;
+ text-align: center;
+ color: black;
+ font-weight: bold;
+ border: solid black 11px;
+ border-radius: 200px;
+   animation: a2 6s infinite;
+}
+#mouth 
+{
+width: 100px;
+height: 50px;
+border: solid 10px black;
+ background-color: gold;
+ border-radius:0 0 100% 100%;
+ margin:   20px 50px -10px 40px;
+ border-right-color:transparent;
+ border-left-color: transparent;
+ border-top-color: transparent;
+}
+#mouth1
+{
+width: 100px;
+height: 50px;
+border: solid 10px transparent;
+ background-color: transparent;
+ border-radius:0 0 100px 100px;
+ margin:   -50px 50px 0px 40px;
+
+}
+#smiles 
+{
+width: 100px;
+height: 100px;
+border: solid 10px black;
+ background-color: gold;
+ border-radius:0% 0% 100% 100%;
+ margin:   -40px 50px 40px 40px;
+ border-right-color:transparent;
+ border-left-color: transparent;
+ border-top-color: transparent;
+}
+#eye
+{
+width: 8px;
+height:8px;
+border: solid 8px black;
+ background-color: white;
+ border-radius: 100px;
+ display: inline-block;
+ margin: 40px 10px -30px 10px;
+}
+@keyframes a2 {
+  
+    0% {
+     left: 25%;
+     top: 50px;
+   transform: scale(0.5);
+    }
+  17%
+  {
+   left:0;
+   top:70px;
+       transform: scale(0.8);
+  }
+  34%
+  {
+   left: -25%;
+   top:50px;
+   transform: scale(0.5);
+  }
+     51%
+     {
+     left:-25%;
+     top:-10px;
+       transform: scale(.8);
+ }
+   
+    68%
+    {
+     left: 0%;
+     top:-30px;
+     transform: scale(.5);
+    }
+  85%
+  {
+   left:25%;
+   top:-10px;
+      transform: scale(0.8);
+  }
+  100%
+  {
+   left:25%;
+   top:50px;
+   transform: scale(.5);
+  }
+  
+
+ }
+ 
+ 
+  ol{
+ font-size: 20px;
+ color: darkGray;
+}
+
+
+
+
+color: steelBlue;
+}
+.task
+{
+ text-align: center;
+ font-size: 60px;
+}
+
+#bia
+{
+ font-size: 25px;
+ background-color: steelBlue;
+ border-radius: 50px;
+ border: solid white 1px;
+ color: white;
+ height: 40px;
+ width: 100px;
+ }
+#bib
+{
+ font-size: 25px;
+ background-color: red;
+ border-radius: 50px;
+ border: solid white 1px;
+ color: white;
+ height: 40px;
+ width: 100px;
+ margin-left: 50px;
+ }
+ .buttons
+ {
+ text-align: center;
+ display:inline-block;
+position:relative;
+margin-top: 30px;
+ }
+ #counter {
+  text-align: left;
+ }
