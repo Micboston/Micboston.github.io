@@ -18,8 +18,9 @@ padding:100px;
 background-color: black;
 margin: -80px 100px 5px 0;
 object-fit: contain;
-width: 808px;
+width: 825px;
 }
+
 #header
 {
     filter: saturate(130%);
@@ -161,5 +162,4 @@ button #bia {
 }
 #map {
 Width:800px;
-
 }
