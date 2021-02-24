@@ -37,13 +37,13 @@ background: linear-gradient(lightSlateGray, darkSlateGray);
   display: block;
   float: right;
   margin-top: 0;
-  padding-right: 50px;
+  padding-right: 10px;
   font-size: 30px;
 }
 #header-nav li {
   font-size: 20px;
-  display: inline;
-  padding-left:20px;
+  display: line;
+  padding-left:10px;
 }
 .container {
   max-width: 1000px;
